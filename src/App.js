@@ -1,4 +1,4 @@
-import ShopItemFunc from './components/ShopItemFunc';
+import ShopItemClass from './components/ShopItemClass';
 import './App.css';
 import ItemModel from './models/item';
 
@@ -19,7 +19,7 @@ export function App() {
           <div className="highlight-overlay"></div>
         </div>
         <div className="window">
-          <ShopItemFunc item={item} />
+          <ShopItemClass item={item} />
         </div>
       </div>
   );
